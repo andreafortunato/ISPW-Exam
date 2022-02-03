@@ -22,7 +22,6 @@ public class Client {
 			this.vehicle4 = factory.createVehicle(VehicleType.PANIGALE);
 		}	
 		catch (InvalidParameterException ipe) {
-			ipe.printStackTrace();
 			System.exit(-1);
 		}
 	}
