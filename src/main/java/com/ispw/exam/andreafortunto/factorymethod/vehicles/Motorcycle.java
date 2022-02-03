@@ -1,4 +1,4 @@
-package com.ispw.exam.fortunatoandrea.vehicles;
+package com.ispw.exam.andreafortunto.factorymethod.vehicles;
 
 public class Motorcycle implements Vehicle {
 	
@@ -16,4 +16,5 @@ public class Motorcycle implements Vehicle {
 	public Boolean drivenByNovice() {
 		return this.displacement <= 50;
 	}
+	
 }

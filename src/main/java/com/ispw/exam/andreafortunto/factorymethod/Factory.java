@@ -1,11 +1,11 @@
-package com.ispw.exam.fortunatoandrea;
+package com.ispw.exam.andreafortunto.factorymethod;
 
 import java.security.InvalidParameterException;
 
-import com.ispw.exam.fortunatoandrea.vehicles.Car;
-import com.ispw.exam.fortunatoandrea.vehicles.Motorcycle;
-import com.ispw.exam.fortunatoandrea.vehicles.Vehicle;
-import com.ispw.exam.fortunatoandrea.vehicles.VehicleType;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.Car;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.Motorcycle;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.Vehicle;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.VehicleType;
 
 public class Factory {
 	
@@ -37,5 +37,5 @@ public class Factory {
 	public Vehicle createPanigaleVehicle() {
 		return new Motorcycle(1200);
 	}
-	
+
 }

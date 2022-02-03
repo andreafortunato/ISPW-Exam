@@ -1,9 +1,9 @@
-package com.ispw.exam.fortunatoandrea;
+package com.ispw.exam.andreafortunto.factorymethod;
 
 import java.security.InvalidParameterException;
 
-import com.ispw.exam.fortunatoandrea.vehicles.Vehicle;
-import com.ispw.exam.fortunatoandrea.vehicles.VehicleType;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.Vehicle;
+import com.ispw.exam.andreafortunto.factorymethod.vehicles.VehicleType;
 
 public class Client {
 	
@@ -34,8 +34,6 @@ public class Client {
 		client.vehicle2.drivenByNovice();
 		client.vehicle3.drivenByNovice();
 		client.vehicle4.drivenByNovice();
-
 	}
-
-
+	
 }
